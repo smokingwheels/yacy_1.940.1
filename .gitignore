@@ -1,6 +1,5 @@
 *.class
 *.*~
-lib/yacycore.jar
 libbuild/svnRevNr.jar
 libbuild/GitRevTask.jar
 gen/**
