@@ -1,0 +1,581 @@
+I 2025/01/03 11:18:54 UPNP * found device: Archer_VR2800
+I 2025/01/03 11:18:55 UPNP * mapped mapped port 8090 to port 8090 on device Archer_VR2800, external IP is 58.96.112.6
+I 2025/01/03 11:18:56 Domain Init * local host address: 192.168.1.105 (local)
+I 2025/01/03 11:18:56 Domain Init * local host address: 0::1 (local)
+I 2025/01/03 11:18:56 Domain Init * local host address: 0:0:0:0:0:0:0:1 (local)
+I 2025/01/03 11:18:56 Domain Init * local host address: 127.0.0.1 (local)
+I 2025/01/03 11:18:57 Domain Init * local host address: fe80:0:0:0:e1b8:6953:64e9:3d5d (local)
+I 2025/01/03 11:18:57 Domain Init * local host address: fe80::e1b8:6953:64e9:3d5d (local)
+I 2025/01/03 11:18:57 Domain Init * local host address: fe80:0:0:0:ac11:ed47:83e6:25bf (local)
+I 2025/01/03 11:18:57 Domain Init * local host address: fe80::ac11:ed47:83e6:25bf (local)
+I 2025/01/03 11:18:57 Domain Init * local host address: fe80:0:0:0:6c76:3714:2eac:78a3 (local)
+I 2025/01/03 11:18:57 Domain Init * local host address: fe80::6c76:3714:2eac:78a3 (local)
+I 2025/01/03 11:18:57 Word * hashCache.size = 20000
+I 2025/01/03 11:18:57 SWITCHBOARD * Initializing Segment 'C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\SEGMENTS.
+I 2025/01/03 11:18:58 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\SEGMENTS\default\text.index.20250103024132853.blob, 0 MB. Please wait.
+I 2025/01/03 11:18:58 Domain Init * local host address: fe80:0:0:0:0:5efe:c0a8:169 (local)
+I 2025/01/03 11:18:58 Domain Init * local host address: fe80::5efe:c0a8:169 (local)
+I 2025/01/03 11:18:58 Domain Init * finished
+I 2025/01/03 11:18:58 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\SEGMENTS\default\text.index.20250103024132853.blob, 1 entries, 0 gaps.
+I 2025/01/03 11:18:58 org.apache.solr.core.SolrXmlConfig Loading solr.xml from C:\Users\Holden\Documents\GitHub\yacy_1.940.1\defaults\solr\solr.xml
+I 2025/01/03 11:19:03 org.eclipse.jetty.util.log Logging initialized @10822ms to org.eclipse.jetty.util.log.Slf4jLog
+I 2025/01/03 11:19:04 org.apache.solr.core.CorePropertiesLocator Found 2 core definitions underneath C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\SEGMENTS\solr_9_0
+I 2025/01/03 11:19:04 org.apache.solr.core.CorePropertiesLocator Cores are: [collection1, webgraph]
+I 2025/01/03 11:19:04 org.apache.solr.core.TransientSolrCoreCacheDefault Allocating transient core cache for max 2147483647 cores with initial capacity of 1024
+I 2025/01/03 11:19:04 org.apache.solr.update.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+I 2025/01/03 11:19:04 org.apache.solr.update.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+I 2025/01/03 11:19:05 org.apache.solr.update.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+I 2025/01/03 11:19:05 org.apache.solr.update.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+I 2025/01/03 11:19:06 org.apache.solr.update.CommitTracker Hard AutoCommit: if uncommitted for 180000ms; 
+I 2025/01/03 11:19:06 org.apache.solr.update.CommitTracker Soft AutoCommit: if uncommitted for 5000ms; 
+I 2025/01/03 11:19:06 org.apache.solr.update.CommitTracker Hard AutoCommit: if uncommitted for 180000ms; 
+I 2025/01/03 11:19:06 org.apache.solr.update.CommitTracker Soft AutoCommit: if uncommitted for 5000ms; 
+I 2025/01/03 11:19:06 org.apache.solr.rest.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\SEGMENTS\solr_9_0\webgraph\conf
+I 2025/01/03 11:19:06 org.apache.solr.rest.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\SEGMENTS\solr_9_0\collection1\conf
+I 2025/01/03 11:19:06 org.apache.solr.handler.component.SuggestComponent Initializing SuggestComponent
+I 2025/01/03 11:19:06 org.apache.solr.handler.component.SuggestComponent Initializing SuggestComponent
+I 2025/01/03 11:19:06 org.apache.solr.spelling.suggest.SolrSuggester init: {name=mySuggester, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, field=cat, weightField=price, suggestAnalyzerFieldType=string, buildOnStartup=false}
+I 2025/01/03 11:19:06 org.apache.solr.spelling.suggest.SolrSuggester init: {name=mySuggester, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, field=cat, weightField=price, suggestAnalyzerFieldType=string, buildOnStartup=false}
+I 2025/01/03 11:19:06 org.apache.solr.spelling.suggest.SolrSuggester Dictionary loaded with params: {name=mySuggester, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, field=cat, weightField=price, suggestAnalyzerFieldType=string, buildOnStartup=false}
+I 2025/01/03 11:19:06 org.apache.solr.spelling.suggest.SolrSuggester Dictionary loaded with params: {name=mySuggester, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, field=cat, weightField=price, suggestAnalyzerFieldType=string, buildOnStartup=false}
+I 2025/01/03 11:19:06 org.apache.solr.update.UpdateLog Could not find max version in index or recent updates, using new clock 1820196178806964224
+I 2025/01/03 11:19:06 SolrEmbeddedInstance * detected default solr core: collection1
+I 2025/01/03 11:19:06 Fulltext * using lucene version 9_0_0
+I 2025/01/03 11:19:06 Fulltext * connected solr in C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\SEGMENTS\solr_9_0, lucene version 9_0_0
+I 2025/01/03 11:19:06 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.new.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:06 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.new.heap, 136 entries, 41 gaps.
+I 2025/01/03 11:19:06 HeapReader * BLOB C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.new.heap: merged 0 free records
+I 2025/01/03 11:19:06 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.new.heap
+I 2025/01/03 11:19:06 org.apache.solr.core.QuerySenderListener QuerySenderListener done.
+I 2025/01/03 11:19:06 org.apache.solr.core.QuerySenderListener QuerySenderListener done.
+I 2025/01/03 11:19:06 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.old.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:06 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.old.heap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:06 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.old.heap
+I 2025/01/03 11:19:06 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.pot.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:06 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.pot.heap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:06 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.pot.heap
+I 2025/01/03 11:19:06 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES\crawlProfilesActive1.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:06 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES\crawlProfilesActive1.heap, 10 entries, 0 gaps.
+I 2025/01/03 11:19:06 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES\crawlProfilesActive1.heap
+I 2025/01/03 11:19:06 SWITCHBOARD * Loaded active crawl profiles from file crawlProfilesActive1.heap, 10 entries
+I 2025/01/03 11:19:06 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES\crawlProfilesPassive1.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:06 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES\crawlProfilesPassive1.heap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:06 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES\crawlProfilesPassive1.heap
+I 2025/01/03 11:19:06 SWITCHBOARD * Loaded passive crawl profiles from file crawlProfilesPassive1.heap, 0 entries, 0
+I 2025/01/03 11:19:07 NETWORK * BOOTSTRAP: 136 seeds known from previous run, concurrently starting seedlist loader
+I 2025/01/03 11:19:07 SWITCHBOARD * HTCACHE Path = C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\HTCACHE
+I 2025/01/03 11:19:07 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\HTCACHE\responseHeader.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:07 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\HTCACHE\responseHeader.heap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:07 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\HTCACHE\responseHeader.heap
+I 2025/01/03 11:19:07 Cache * initialized cache database responseHeaderDB.size() = 0, fileDB.size() = 0
+I 2025/01/03 11:19:07 SWITCHBOARD * surrogates.in Path = C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\SURROGATES\in
+I 2025/01/03 11:19:07 SWITCHBOARD * surrogates.out Path = C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\SURROGATES\out
+I 2025/01/03 11:19:07 SWITCHBOARD * RELEASE Path = C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\RELEASE
+I 2025/01/03 11:19:07 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\message.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:07 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\message.heap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:07 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\message.heap
+I 2025/01/03 11:19:07 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\wiki.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:07 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\wiki.heap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:07 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\wiki.heap
+I 2025/01/03 11:19:07 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\wiki-bkp.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:07 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\wiki-bkp.heap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:07 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\wiki-bkp.heap
+I 2025/01/03 11:19:07 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\blog.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:07 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\blog.heap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:07 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\blog.heap
+I 2025/01/03 11:19:07 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\blogComment.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:07 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\blogComment.heap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:07 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\blogComment.heap
+I 2025/01/03 11:19:07 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\SETTINGS\user.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:07 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\SETTINGS\user.heap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:07 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\SETTINGS\user.heap
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.android.package-archive': Android Application Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'apk': Android Application Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-bzip2': Bzip 2 UNIX Compressed File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/bzip2': Bzip 2 UNIX Compressed File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-bz2': Bzip 2 UNIX Compressed File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-bzip': Bzip 2 UNIX Compressed File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-stuffit': Bzip 2 UNIX Compressed File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'tbz2': Bzip 2 UNIX Compressed File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'bz2': Bzip 2 UNIX Compressed File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'tbz': Bzip 2 UNIX Compressed File Parser
+I 2025/01/03 11:19:07 NETWORK * BOOTSTRAP: failed (1) to load seeds from seed-list URL https://tonibot.ddns.net:8892/other/seed.txt: Client can't execute: tonibot.ddns.net, timeout=20000, duration=90, concurrent=false, url=https://tonibot.ddns.net:8892/other/seed.txt
+I 2025/01/03 11:19:07 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\bookmarks.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:07 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\bookmarks.heap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:07 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\bookmarks.heap
+I 2025/01/03 11:19:07 BOOKMARKS * started init of tags from bookmarks.db...
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-xz': XZ Compressed Archive Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'xz': XZ Compressed Archive Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'txz': XZ Compressed Archive Parser
+I 2025/01/03 11:19:07 BOOKMARKS * finished init 0 tags using your 0 bookmarks.
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'csv': Comma Separated Value Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/msword': Word Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/doc': Word Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'appl/text': Word Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.msword': Word Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.ms-word': Word Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/winword': Word Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/word': Word Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-msw6': Word Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-msword': Word Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'doc': Word Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-gzip': GNU Zip Compressed Archive Parser
+I 2025/01/03 11:19:07 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\bookmarkDates.heap, 0 MB. Please wait.
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/gzip': GNU Zip Compressed Archive Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-gunzip': GNU Zip Compressed Archive Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/gzipped': GNU Zip Compressed Archive Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/gzip-compressed': GNU Zip Compressed Archive Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'gzip/document': GNU Zip Compressed Archive Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'gz': GNU Zip Compressed Archive Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'tgz': GNU Zip Compressed Archive Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/html': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/xhtml+xml': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/xhtml+xml': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-httpd-php': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-tex': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.ms-outlook': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/plain': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/csv': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'htm': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'phtml': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'msg': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'phtm': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'tex': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'php4': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'php5': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'cfm': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'stm': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'php2': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'xhtml': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'php3': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'tpl': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'txt': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'aspx': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'php': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'html': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'shtml': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'shtm': Streaming HTML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'asp': Streaming HTML Parser
+I 2025/01/03 11:19:07 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\bookmarkDates.heap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/jpg': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/cursor': Generic Image Parser
+I 2025/01/03 11:19:07 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\bookmarkDates.heap
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/vnd.wap.wbmp': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/png': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/jpeg': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/x-cursor': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/bmp': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/gif': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/x-icon': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/x-bmp': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/vnd.microsoft.cursor': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/x-png': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/tiff': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/x-tiff': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/ico': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/vnd.microsoft.bitmap': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/vnd.microsoft.icon': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'jpg': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'cur': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'tiff': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'bmp': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'gif': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'tf8': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'png': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'rle': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'btiff': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'tif': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'ico': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'btf': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'wbmp': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'jpeg': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'jpe': Generic Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/tiff': Metadata Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/vnd.adobe.photoshop': Metadata Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/x-photoshop': Metadata Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'tif' was set to mime 'image/jpg', overwriting with new mime 'image/tiff'.
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'tif': Metadata Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'psd': Metadata Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/json': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-javascript': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/javascript': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/x-javascript': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/x-json': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/sgml': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'cpp': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'jsonp': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'c': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'jsp': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'h': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'js': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'json': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'mf': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'py': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'pl': Link Scraper Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/freemind': FreeMind Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-freemind': FreeMind Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'mm': FreeMind Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.text': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.spreadsheet': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.presentation': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.graphics': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.chart': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.formula': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.database': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.image': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.text-master': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.text-template': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.spreadsheet-template': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.presentation-template': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.graphics-template': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-vnd.oasis.opendocument.text': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/ooo-calc': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/ooo-writer': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'otg': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'otp': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'odb': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'ott': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'odc': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'ots': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'odf': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'odg': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'sxw': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'odi': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'odm': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'odp': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'odt': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'ods': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'sxc': OASIS OpenDocument V2 Text Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.wordprocessingml.document': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.wordprocessingml.template': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.presentationml.template': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.presentationml.slideshow': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.presentationml.presentation': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.spreadsheetml.template': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'dotx': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'pptx': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'xltx': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'ppsx': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'xlsx': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'potx': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'docx': Open Office XML Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/pdf': Acrobat Portable Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-pdf': Acrobat Portable Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/acrobat': Acrobat Portable Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'applications/vnd.pdf': Acrobat Portable Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/pdf': Acrobat Portable Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/x-pdf': Acrobat Portable Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'pdf': Acrobat Portable Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/mspowerpoint': Microsoft Powerpoint Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/powerpoint': Microsoft Powerpoint Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.ms-powerpoint': Microsoft Powerpoint Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/ms-powerpoint': Microsoft Powerpoint Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/mspowerpnt': Microsoft Powerpoint Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd-mspowerpoint': Microsoft Powerpoint Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-powerpoint': Microsoft Powerpoint Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-m': Microsoft Powerpoint Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'pps': Microsoft Powerpoint Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'ppt': Microsoft Powerpoint Parser
+I 2025/01/03 11:19:07 PARSER * ps2ascii not found. Switching to java parser mode.
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/postscript': PostScript Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/ps': PostScript Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-postscript': PostScript Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-ps': PostScript Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-postscript-not-eps': PostScript Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'ps': PostScript Document Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'xml': RSS Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/rss': RSS Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/xml': RSS Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/rss+xml': RSS Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/atom+xml': RSS Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'rss': RSS Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'xml': RSS Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/rtf': Rich Text Format Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/richtext': Rich Text Format Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/rtf': Rich Text Format Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-rtf': Rich Text Format Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-soffice': Rich Text Format Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'rtf': Rich Text Format Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/prs.sid': Commodore 64 SID Audio File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/psid': Commodore 64 SID Audio File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/x-psid': Commodore 64 SID Audio File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/sidtune': Commodore 64 SID Audio File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/x-sidtune': Commodore 64 SID Audio File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'sid': Commodore 64 SID Audio File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/svg+xml': SVG Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'svg': SVG Image Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-tar': Tape Archive File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/tar': Tape Archive File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'applicaton/x-gtar': Tape Archive File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'multipart/x-tar': Tape Archive File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'tar': Tape Archive File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-bittorrent': Torrent Metadata Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'torrent': Torrent Metadata Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/x-vcard': vCard Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vcard': vCard Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-versit': vCard Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/x-versit': vCard Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/x-vcalendar': vCard Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'vcf': vCard Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/visio': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-visio': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.visio': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/visio.drawing': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vsd': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-vsd': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'image/x-vsd': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'zz-application/zz-winassoc-vsd': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'vsd': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'vst': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'vss': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'vdx': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'vtx': Microsoft Visio Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/msexcel': Microsoft Excel Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/excel': Microsoft Excel Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.ms-excel': Microsoft Excel Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-excel': Microsoft Excel Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-msexcel': Microsoft Excel Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-ms-excel': Microsoft Excel Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-dos_ms_excel': Microsoft Excel Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/xls': Microsoft Excel Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'xla': Microsoft Excel Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'xls': Microsoft Excel Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/zip': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-zip': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-zip-compressed': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-compress': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/x-compressed': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'multipart/x-zip': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/java-archive': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/vnd.android.package-archive': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/epub+zip': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'apk' was set to mime 'application/vnd.android.package-archive', overwriting with new mime 'application/zip'.
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'zip': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'epub': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'jar': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'apk': ZIP File Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/aiff': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/x-aiff': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/mpeg': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/mpa': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/mpa-robust': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/mp4': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/flac': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/x-flac': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/ogg': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/x-ms-wma': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/x-ms-asf': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/vnd.rn-realaudio': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/x-pn-realaudio': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/vnd.wave': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/wave': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/wav': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'audio/x-wav': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'aiff': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'flac': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'aifc': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'm4p': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'wma': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'wav': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'ogg': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'ra': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'mp4': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'mp3': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'm4b': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'm4a': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'rm': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'aif': Audio File Meta-Tag Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'application/xml': XML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for mime type 'text/xml': XML Parser
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'xml' was set to mime 'xml', overwriting with new mime 'application/xml'.
+I 2025/01/03 11:19:07 PARSER * Parser for extension 'xml': XML Parser
+I 2025/01/03 11:19:07 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\robots.bheap, 0 MB. Please wait.
+I 2025/01/03 11:19:07 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\robots.bheap, 0 entries, 0 gaps.
+I 2025/01/03 11:19:07 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\robots.bheap
+I 2025/01/03 11:19:07 NoticedURL * START CREATING STACKS at C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES
+I 2025/01/03 11:19:07 NoticedURL * opening CrawlerCoreStacks..
+I 2025/01/03 11:19:07 NoticedURL * opening CrawlerLimitStacks..
+I 2025/01/03 11:19:07 NoticedURL * opening CrawlerNoLoadStacks..
+I 2025/01/03 11:19:07 NoticedURL * FINISHED CREATING STACKS at C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES
+I 2025/01/03 11:19:07 RESOURCE OBSERVER * path for disc space measurement: C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA
+I 2025/01/03 11:19:07 STACKCRAWL * STACKCRAWL thread initialized.
+I 2025/01/03 11:19:07 MIGRATION * copied new Skinfile
+I 2025/01/03 11:19:07 RESOURCE OBSERVER * resources ok
+I 2025/01/03 11:19:07 NETWORK * BOOTSTRAP: failed (1) to load seeds from seed-list URL https://s1002.xpcom-online.de/yacy/seed2.txt: Client can't execute: s1002.xpcom-online.de, timeout=20000, duration=801, concurrent=false, url=https://s1002.xpcom-online.de/yacy/seed2.txt
+I 2025/01/03 11:19:07 Jetty9HttpServerImpl * htrootpath = C:\Users\Holden\Documents\GitHub\yacy_1.940.1/htroot
+I 2025/01/03 11:19:07 org.eclipse.jetty.server.Server jetty-9.4.56.v20240826; built: 2024-08-26T17:15:05.868Z; git: ec6782ff5ead824dabdcf47fa98f90a4aedff401; jvm 17.0.13+11-LTS
+I 2025/01/03 11:19:08 org.eclipse.jetty.server.handler.ContextHandler Started o.e.j.s.h.ContextHandler@3d8b319e{/,null,AVAILABLE}
+I 2025/01/03 11:19:08 org.eclipse.jetty.server.session DefaultSessionIdManager workerName=node0
+I 2025/01/03 11:19:08 org.eclipse.jetty.server.session No SessionScavenger set, using defaults
+I 2025/01/03 11:19:08 org.eclipse.jetty.server.session node0 Scavenging every 600000ms
+I 2025/01/03 11:19:08 org.eclipse.jetty.server.handler.ContextHandler Started o.e.j.w.WebAppContext@27a97e08{YaCy,/,file:///C:/Users/Holden/Documents/GitHub/yacy_1.940.1/htroot/,AVAILABLE}
+I 2025/01/03 11:19:08 org.eclipse.jetty.server.AbstractConnector Started httpd-0.0.0.0:8090@6da9dc6{HTTP/1.1, (http/1.1)}{0.0.0.0:8090}
+I 2025/01/03 11:19:08 org.eclipse.jetty.server.Server Started @16027ms
+I 2025/01/03 11:19:08 STARTUP * Jetty 9.4.56.v20240826
+I 2025/01/03 11:19:11 NETWORK * BOOTSTRAP: 0 seeds from seed-list URL https://lodwich.net/static/seeds/seed.txt, AGE=0h, uptodatec = 0, outdatedc = 0
+I 2025/01/03 11:19:11 HTCACHE * storing content of url https://yacy.net/include/donate.html, 4293 bytes
+I 2025/01/03 11:19:11 NETWORK * BOOTSTRAP: 0 seeds from seed-list URL https://aahso.net/yacyseed, AGE=0h, uptodatec = 0, outdatedc = 0
+I 2025/01/03 11:19:12 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\stats.bheap, 0 MB. Please wait.
+I 2025/01/03 11:19:12 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\stats.bheap, 2 entries, 0 gaps.
+I 2025/01/03 11:19:12 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\stats.bheap
+I 2025/01/03 11:19:12 NETWORK * BOOTSTRAP: 0 seeds from seed-list URL http://5.45.105.16/yacyseed, AGE=0h, uptodatec = 0, outdatedc = 0
+I 2025/01/03 11:19:12 NETWORK * BOOTSTRAP: 13 seeds from seed-list URL http://yacy.v16.de/seed/seed.txt, AGE=0h, uptodatec = 143, outdatedc = 15
+I 2025/01/03 11:19:12 NETWORK * BOOTSTRAP: 140 seeds from seed-list URL http://sixcooler.de/yacy/seed.txt, AGE=0h, uptodatec = 141, outdatedc = 16
+I 2025/01/03 11:19:14 NETWORK * BOOTSTRAP: 11 seeds from seed-list URL https://sonst.mifritscher.de/yacy/seed.txt, AGE=0h, uptodatec = 144, outdatedc = 16
+I 2025/01/03 11:19:16 NETWORK * BOOTSTRAP: 51 seeds from seed-list URL https://search.joestr.at/www/seed.txt, AGE=0h, uptodatec = 144, outdatedc = 18
+I 2025/01/03 11:19:17 NETWORK * yacyClient.hello thread 'PublishSeed_agent-resehih-ufe-135', peer http://[2603:8080:e00:1a00:6d90:3a93:3dea:23e2]:49152/; exception: Client can't execute: Network is unreachable: getsockopt, timeout=30000, duration=43, concurrent=true, url=http://[2603:8080:e00:1a00:6d90:3a93:3dea:23e2]:49152/yacy/hello.html
+I 2025/01/03 11:19:17 NETWORK * yacyClient.hello result error: result null
+I 2025/01/03 11:19:17 NETWORK * publish: disconnected senior peer 'agent-resehih-ufe-135' from [2603:8080:e00:1a00:6d90:3a93:3dea:23e2, 70.112.68.159]: peer ping to peer resulted in error response (added < 0)
+I 2025/01/03 11:19:17 NETWORK * yacyClient.hello thread 'PublishSeed_agent-asx' contacted peer at http://58.96.112.6:49185/, received 8724 bytes, time = 250 milliseconds
+I 2025/01/03 11:19:17 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:17 NETWORK * publish: handshaked senior peer 'agent-asx' at [58.96.112.6]
+I 2025/01/03 11:19:18 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\api.bheap, 0 MB. Please wait.
+I 2025/01/03 11:19:18 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\api.bheap, 1 entries, 0 gaps.
+I 2025/01/03 11:19:18 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\api.bheap
+I 2025/01/03 11:19:19 NETWORK * yacyClient.hello thread 'PublishSeed_lunta-labs-test-node' contacted peer at http://104.245.33.218:8090/, received 8842 bytes, time = 1863 milliseconds
+I 2025/01/03 11:19:19 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:19 NETWORK * publish: handshaked senior peer 'lunta-labs-test-node' at [104.245.33.218]
+I 2025/01/03 11:19:20 NETWORK * yacyClient.hello thread 'PublishSeed_sixcooler' contacted peer at http://93.128.19.34:8080/, received 8991 bytes, time = 2674 milliseconds
+I 2025/01/03 11:19:20 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:20 NETWORK * publish: handshaked principal peer 'sixcooler' at [93.128.19.34]
+I 2025/01/03 11:19:20 NETWORK * yacyClient.hello thread 'PublishSeed_PraetorSteuerindex' contacted peer at http://46.4.96.133:8094/, received 8652 bytes, time = 3254 milliseconds
+I 2025/01/03 11:19:20 NETWORK * publish: handshaked senior peer 'PraetorSteuerindex' at [46.4.96.133]
+I 2025/01/03 11:19:20 NETWORK * yacyClient.hello thread 'PublishSeed_Bubbleo7' contacted peer at http://167.172.230.106:8090/, received 8721 bytes, time = 3290 milliseconds
+I 2025/01/03 11:19:20 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:20 NETWORK * publish: handshaked senior peer 'Bubbleo7' at [167.172.230.106]
+I 2025/01/03 11:19:20 NETWORK * yacyClient.hello thread 'PublishSeed_agent-tikufup-ufe-19' contacted peer at http://195.200.6.104:8090/, received 8963 bytes, time = 3328 milliseconds
+I 2025/01/03 11:19:20 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:20 NETWORK * publish: handshaked senior peer 'agent-tikufup-ufe-19' at [195.200.6.104]
+I 2025/01/03 11:19:20 NETWORK * yacyClient.hello thread 'PublishSeed_Sergal-Search' contacted peer at http://135.181.136.176:8090/, received 8830 bytes, time = 3355 milliseconds
+I 2025/01/03 11:19:20 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:20 NETWORK * publish: handshaked senior peer 'Sergal-Search' at [135.181.136.176]
+I 2025/01/03 11:19:21 NETWORK * yacyClient.hello thread 'PublishSeed__anonufe-33720853-0' contacted peer at http://87.160.106.2:8090/, received 8926 bytes, time = 4253 milliseconds
+I 2025/01/03 11:19:21 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:21 NETWORK * publish: handshaked senior peer '_anonufe-33720853-0' at [87.160.106.2]
+I 2025/01/03 11:19:21 NETWORK * BOOTSTRAP: 54 seeds from seed-list URL http://seedlist.wertewesten.net/seed.txt, AGE=0h, uptodatec = 141, outdatedc = 16
+I 2025/01/03 11:19:22 NETWORK * yacyClient.hello thread 'PublishSeed_agent-resehih-ufe-135' contacted peer at http://70.112.68.159:49152/, received 8591 bytes, time = 4358 milliseconds
+I 2025/01/03 11:19:22 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:22 NETWORK * publish: handshaked senior peer 'agent-resehih-ufe-135' at [70.112.68.159]
+I 2025/01/03 11:19:22 NETWORK * yacyClient.hello thread 'PublishSeed_search-bubbleo7-com' contacted peer at http://134.22.6.204:49153/, received 8684 bytes, time = 4455 milliseconds
+I 2025/01/03 11:19:22 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:22 NETWORK * publish: handshaked senior peer 'search-bubbleo7-com' at [134.22.6.204]
+I 2025/01/03 11:19:22 NETWORK * yacyClient.hello thread 'PublishSeed_jamjars2' contacted peer at http://88.198.22.71:8090/, received 8924 bytes, time = 4628 milliseconds
+I 2025/01/03 11:19:22 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:22 NETWORK * publish: handshaked principal peer 'jamjars2' at [88.198.22.71]
+I 2025/01/03 11:19:22 NETWORK * yacyClient.hello thread 'PublishSeed_agent-laketur-ufe-28' contacted peer at http://79.210.200.57:8090/, received 9031 bytes, time = 5224 milliseconds
+I 2025/01/03 11:19:22 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:22 NETWORK * publish: handshaked senior peer 'agent-laketur-ufe-28' at [79.210.200.57]
+I 2025/01/03 11:19:24 NETWORK * yacyClient.hello thread 'PublishSeed_agent-gosipog-ufe-42' contacted peer at http://185.142.238.173:8090/, received 8747 bytes, time = 6762 milliseconds
+I 2025/01/03 11:19:24 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:24 NETWORK * publish: handshaked senior peer 'agent-gosipog-ufe-42' at [185.142.238.173]
+I 2025/01/03 11:19:24 NETWORK * yacyClient.hello thread 'PublishSeed_sixcooler0' contacted peer at http://93.128.19.34:8090/, received 8753 bytes, time = 6926 milliseconds
+I 2025/01/03 11:19:24 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:24 NETWORK * publish: handshaked senior peer 'sixcooler0' at [93.128.19.34]
+I 2025/01/03 11:19:25 NETWORK * yacyClient.hello thread 'PublishSeed_sol_anonufe-18082489-14' contacted peer at http://87.148.64.74:8090/, received 8841 bytes, time = 7561 milliseconds
+I 2025/01/03 11:19:25 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:25 NETWORK * publish: handshaked principal peer 'sol_anonufe-18082489-14' at [87.148.64.74]
+I 2025/01/03 11:19:26 NETWORK * yacyClient.hello thread 'PublishSeed_mifritscher' contacted peer at http://188.40.170.101:8090/, received 8861 bytes, time = 8632 milliseconds
+I 2025/01/03 11:19:26 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:26 NETWORK * publish: handshaked principal peer 'mifritscher' at [188.40.170.101]
+I 2025/01/03 11:19:28 NETWORK * BOOTSTRAP: 30 seeds from seed-list URL https://frank-siebert.de/seed.txt, AGE=0h, uptodatec = 144, outdatedc = 16
+I 2025/01/03 11:19:31 NETWORK * yacyClient.hello thread 'PublishSeed_agent-gilebod-ufe-14' contacted peer at http://130.61.239.99:8090/, received 8496 bytes, time = 13586 milliseconds
+I 2025/01/03 11:19:31 NETWORK * connect: SELF reference [58.96.112.6]
+I 2025/01/03 11:19:31 NETWORK * publish: handshaked senior peer 'agent-gilebod-ufe-14' at [130.61.239.99]
+I 2025/01/03 11:19:38 NETWORK * yacyClient.hello thread 'PublishSeed_agent-habebom-ufe-21', peer http://77.176.160.168:8090/; exception: Client can't execute: Connection timed out: getsockopt, timeout=30000, duration=21012, concurrent=true, url=http://77.176.160.168:8090/yacy/hello.html
+I 2025/01/03 11:19:38 NETWORK * yacyClient.hello result error: result null
+I 2025/01/03 11:19:38 NETWORK * publish: disconnected senior peer 'agent-habebom-ufe-21' from [77.176.160.168]: peer ping to peer resulted in error response (added < 0)
+I 2025/01/03 11:19:38 NETWORK * yacyClient.hello thread 'PublishSeed_agent-kisemer-ufe-0', peer http://100.64.196.171:8090/; exception: Client can't execute: Connection timed out: getsockopt, timeout=30000, duration=21034, concurrent=true, url=http://100.64.196.171:8090/yacy/hello.html
+I 2025/01/03 11:19:38 NETWORK * yacyClient.hello result error: result null
+I 2025/01/03 11:19:38 NETWORK * publish: disconnected senior peer 'agent-kisemer-ufe-0' from [100.64.196.171, 2a01:4f8:c0c:a696:0:0:0:1]: peer ping to peer resulted in error response (added < 0)
+I 2025/01/03 11:19:38 NETWORK * yacyClient.hello thread 'PublishSeed_agent-kisemer-ufe-0', peer http://[2a01:4f8:c0c:a696:0:0:0:1]:8090/; exception: Client can't execute: Network is unreachable: getsockopt, timeout=30000, duration=42, concurrent=true, url=http://[2a01:4f8:c0c:a696:0:0:0:1]:8090/yacy/hello.html
+I 2025/01/03 11:19:38 NETWORK * yacyClient.hello result error: result null
+I 2025/01/03 11:19:38 NETWORK * publish: disconnected senior peer 'agent-kisemer-ufe-0' from [2a01:4f8:c0c:a696:0:0:0:1]: peer ping to peer resulted in error response (added < 0)
+I 2025/01/03 11:19:38 NETWORK * PeerPing: I am accessible for 17 peer(s), not accessible for 0 peer(s).
+I 2025/01/03 11:19:38 NETWORK * PeerPing: myType is senior
+I 2025/01/03 11:19:54 STEERING * restart request from localhost
+I 2025/01/03 11:19:54 RESTART * INITIATED
+I 2025/01/03 11:19:54 RESTART * wrote restart-script to C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\RELEASE\restart.bat
+I 2025/01/03 11:19:54 RESTART * script is running
+I 2025/01/03 11:19:54 SWITCHBOARD * caught delayed terminate request: windows restart
+I 2025/01/03 11:19:54 SWITCHBOARD * caught terminate request: windows restart
+I 2025/01/03 11:19:54 org.eclipse.jetty.server.AbstractConnector Stopped httpd-0.0.0.0:8090@6da9dc6{HTTP/1.1, (http/1.1)}{0.0.0.0:8090}
+I 2025/01/03 11:19:54 org.eclipse.jetty.server.session node0 Stopped scavenging
+I 2025/01/03 11:19:54 org.eclipse.jetty.server.handler.ContextHandler Stopped o.e.j.w.WebAppContext@27a97e08{YaCy,/,file:///C:/Users/Holden/Documents/GitHub/yacy_1.940.1/htroot/,STOPPED}
+I 2025/01/03 11:19:54 org.eclipse.jetty.server.handler.ContextHandler Stopped o.e.j.s.h.ContextHandler@3d8b319e{/,null,STOPPED}
+I 2025/01/03 11:19:54 STACKCRAWL * Flushing remaining 0 crawl stacker job entries.
+I 2025/01/03 11:19:54 serverProcessor * queue CrawlStacker: shutdown.
+I 2025/01/03 11:19:54 STACKCRAWL * Shutdown. waiting for remaining 0 crawl stacker job entries. please wait.
+I 2025/01/03 11:19:54 STACKCRAWL * Shutdown. Closing stackCrawl queue.
+I 2025/01/03 11:19:54 NoticedURL * CLOSING ALL STACKS
+I 2025/01/03 11:19:54 HostBalancer * closing all HostBalancer queues (0) for hostPath C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES\CrawlerCoreStacks
+I 2025/01/03 11:19:54 HostBalancer * closing all HostBalancer queues (0) for hostPath C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES\CrawlerLimitStacks
+I 2025/01/03 11:19:54 HostBalancer * closing all HostBalancer queues (0) for hostPath C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES\CrawlerNoLoadStacks
+I 2025/01/03 11:19:54 serverProcessor * queue parseDocument: shutdown.
+I 2025/01/03 11:19:54 serverProcessor * queue condenseDocument: shutdown.
+I 2025/01/03 11:19:54 serverProcessor * queue webStructureAnalysis: shutdown.
+I 2025/01/03 11:19:54 serverProcessor * queue storeDocumentIndex: shutdown.
+I 2025/01/03 11:19:54 serverProcessor * queue transferDocumentIndex: shutdown.
+I 2025/01/03 11:19:54 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\wiki.heap
+I 2025/01/03 11:19:54 HeapReader * close HeapFile wiki.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.data.wiki.WikiBoard.close(WikiBoard.java:106) -> net.yacy.search.Switchboard.close(Switchboard.java:2015) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:54 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\wiki-bkp.heap
+I 2025/01/03 11:19:54 HeapReader * close HeapFile wiki-bkp.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.data.wiki.WikiBoard.close(WikiBoard.java:107) -> net.yacy.search.Switchboard.close(Switchboard.java:2015) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:54 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\blog.heap
+I 2025/01/03 11:19:54 HeapReader * close HeapFile blog.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.data.BlogBoard.close(BlogBoard.java:93) -> net.yacy.search.Switchboard.close(Switchboard.java:2016) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:54 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\blogComment.heap
+I 2025/01/03 11:19:54 HeapReader * close HeapFile blogComment.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.data.BlogBoardComments.close(BlogBoardComments.java:86) -> net.yacy.search.Switchboard.close(Switchboard.java:2017) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:54 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\SETTINGS\user.heap
+I 2025/01/03 11:19:54 HeapReader * close HeapFile user.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.data.UserDB.close(UserDB.java:95) -> net.yacy.search.Switchboard.close(Switchboard.java:2018) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:54 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\bookmarks.heap
+I 2025/01/03 11:19:54 HeapReader * close HeapFile bookmarks.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.data.BookmarksDB.close(BookmarksDB.java:120) -> net.yacy.search.Switchboard.close(Switchboard.java:2020) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:54 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\bookmarkDates.heap
+I 2025/01/03 11:19:54 HeapReader * close HeapFile bookmarkDates.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.data.BookmarkDate.close(BookmarkDate.java:56) -> net.yacy.data.BookmarksDB.close(BookmarksDB.java:122) -> net.yacy.search.Switchboard.close(Switchboard.java:2020) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:54 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\message.heap
+I 2025/01/03 11:19:54 HeapReader * close HeapFile message.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.data.MessageBoard.close(MessageBoard.java:71) -> net.yacy.search.Switchboard.close(Switchboard.java:2022) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:54 WebStructureGraph * Waiting for the DNS Resolving Queue to terminate
+I 2025/01/03 11:19:54 WebStructureGraph * Saving Web Structure File: new = 0 entries, old = 0 entries
+I 2025/01/03 11:19:54 WebStructureGraph * dumping 0 entries to C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES\webStructure.map
+I 2025/01/03 11:19:54 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES\crawlProfilesActive1.heap
+I 2025/01/03 11:19:54 HeapReader * wrote a dump for the 0 gap entries of crawlProfilesActive1.heap in 2 milliseconds.
+I 2025/01/03 11:19:54 HeapReader * wrote a dump for the 10 index entries of crawlProfilesActive1.heap in 17 milliseconds.
+I 2025/01/03 11:19:54 HeapReader * close HeapFile crawlProfilesActive1.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.crawler.CrawlSwitchboard.close(CrawlSwitchboard.java:796) -> net.yacy.search.Switchboard.close(Switchboard.java:2024) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:54 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\QUEUES\crawlProfilesPassive1.heap
+I 2025/01/03 11:19:54 HeapReader * close HeapFile crawlProfilesPassive1.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.crawler.CrawlSwitchboard.close(CrawlSwitchboard.java:797) -> net.yacy.search.Switchboard.close(Switchboard.java:2024) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:55 HeapReader * close HeapFile text.index.20250103024132853.blob; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.ArrayStack.close(ArrayStack.java:906) -> net.yacy.kelondro.rwi.ReferenceContainerArray.close(ReferenceContainerArray.java:79) -> net.yacy.kelondro.rwi.IndexCell.close(IndexCell.java:606) -> net.yacy.search.index.Segment.close(Segment.java:508) -> net.yacy.search.Switchboard.close(Switchboard.java:2026) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:55 org.apache.solr.update.processor.LogUpdateProcessorFactory webapp=null path=/update params={commit=true&softCommit=false&waitSearcher=true}{commit=} 0 26
+I 2025/01/03 11:19:55 org.apache.solr.update.processor.LogUpdateProcessorFactory webapp=null path=/update params={commit=true&softCommit=false&waitSearcher=true}{commit=} 0 3
+I 2025/01/03 11:19:55 org.apache.solr.metrics.SolrMetricManager Closing metric reporters for registry=solr.core.collection1 tag=SolrCore@d357076
+I 2025/01/03 11:19:55 org.apache.solr.metrics.SolrMetricManager Closing metric reporters for registry=solr.core.webgraph tag=SolrCore@6812d614
+I 2025/01/03 11:19:55 org.apache.solr.update.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+I 2025/01/03 11:19:55 org.apache.solr.update.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+I 2025/01/03 11:19:55 org.apache.solr.metrics.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
+I 2025/01/03 11:19:55 org.apache.solr.metrics.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
+I 2025/01/03 11:19:55 org.apache.solr.metrics.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
+I 2025/01/03 11:19:55 IODispatcher * caught termination signal
+I 2025/01/03 11:19:55 IODispatcher * loop terminated
+I 2025/01/03 11:19:55 IODispatcher * terminating run job
+I 2025/01/03 11:19:55 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.new.heap
+I 2025/01/03 11:19:55 HeapReader * wrote a dump for the 48 gap entries of seed.new.heap in 1 milliseconds.
+I 2025/01/03 11:19:55 HeapReader * wrote a dump for the 148 index entries of seed.new.heap in 12 milliseconds.
+I 2025/01/03 11:19:55 HeapReader * close HeapFile seed.new.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.kelondro.blob.MapDataMining.close(MapDataMining.java:413) -> net.yacy.peers.SeedDB.close(SeedDB.java:331) -> net.yacy.search.Switchboard.close(Switchboard.java:2027) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:55 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.old.heap
+I 2025/01/03 11:19:55 HeapReader * close HeapFile seed.old.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.kelondro.blob.MapDataMining.close(MapDataMining.java:413) -> net.yacy.peers.SeedDB.close(SeedDB.java:332) -> net.yacy.search.Switchboard.close(Switchboard.java:2027) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:55 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\INDEX\freeworld\NETWORK\seed.pot.heap
+I 2025/01/03 11:19:55 HeapReader * wrote a dump for the 0 gap entries of seed.pot.heap in 1 milliseconds.
+I 2025/01/03 11:19:55 HeapReader * wrote a dump for the 11 index entries of seed.pot.heap in 5 milliseconds.
+I 2025/01/03 11:19:55 HeapReader * close HeapFile seed.pot.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.kelondro.blob.MapDataMining.close(MapDataMining.java:413) -> net.yacy.peers.SeedDB.close(SeedDB.java:333) -> net.yacy.search.Switchboard.close(Switchboard.java:2027) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:55 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\HTCACHE\responseHeader.heap
+I 2025/01/03 11:19:55 HeapReader * close HeapFile responseHeader.heap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.MapHeap.close(MapHeap.java:466) -> net.yacy.crawler.data.Cache.close(Cache.java:264) -> net.yacy.search.Switchboard.close(Switchboard.java:2028) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:55 HeapReader * generating index for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\HTCACHE\file.array\osDYxRc9DISy.20250103031955818.blob, 0 MB. Please wait.
+I 2025/01/03 11:19:55 HeapReader * finished index generation for C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\HTCACHE\file.array\osDYxRc9DISy.20250103031955818.blob, 0 entries, 0 gaps.
+I 2025/01/03 11:19:55 Heap * initializing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\HTCACHE\file.array\osDYxRc9DISy.20250103031955818.blob
+I 2025/01/03 11:19:55 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\HTCACHE\file.array\osDYxRc9DISy.20250103031955818.blob
+I 2025/01/03 11:19:55 HeapReader * close HeapFile osDYxRc9DISy.20250103031955818.blob; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.ArrayStack.close(ArrayStack.java:906) -> net.yacy.kelondro.blob.Compressor.close(Compressor.java:135) -> net.yacy.crawler.data.Cache.close(Cache.java:265) -> net.yacy.search.Switchboard.close(Switchboard.java:2028) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:55 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\stats.bheap
+I 2025/01/03 11:19:55 HeapReader * close HeapFile stats.bheap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.Heap.close(Heap.java:310) -> net.yacy.kelondro.blob.BEncodedHeap.close(BEncodedHeap.java:532) -> net.yacy.kelondro.blob.Tables.close(Tables.java:274) -> net.yacy.search.Switchboard.close(Switchboard.java:2029) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:55 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\robots.bheap
+I 2025/01/03 11:19:55 HeapReader * close HeapFile robots.bheap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.Heap.close(Heap.java:310) -> net.yacy.kelondro.blob.BEncodedHeap.close(BEncodedHeap.java:532) -> net.yacy.kelondro.blob.Tables.close(Tables.java:274) -> net.yacy.search.Switchboard.close(Switchboard.java:2029) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:55 Heap * closing heap C:\Users\Holden\Documents\GitHub\yacy_1.940.1\DATA\WORK\api.bheap
+I 2025/01/03 11:19:55 HeapReader * close HeapFile api.bheap; trace: net.yacy.kelondro.blob.HeapModifier.close(HeapModifier.java:82) -> net.yacy.kelondro.blob.Heap.close(Heap.java:304) -> net.yacy.kelondro.blob.Heap.close(Heap.java:310) -> net.yacy.kelondro.blob.BEncodedHeap.close(BEncodedHeap.java:532) -> net.yacy.kelondro.blob.Tables.close(Tables.java:274) -> net.yacy.search.Switchboard.close(Switchboard.java:2029) -> net.yacy.yacy.startup(yacy.java:401) -> net.yacy.yacy.main(yacy.java:809)
+I 2025/01/03 11:19:55 UPNP * unmapped port 8090 on device Archer_VR2800
+I 2025/01/03 11:19:55 ConcurrentLog shutdown of ConcurrentLog.Worker void because it was not running.
