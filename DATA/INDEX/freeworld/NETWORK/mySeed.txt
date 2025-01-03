@@ -1,1 +1,0 @@
-p|{UTC=+0800,Port=8090,RCount=0,Hash=osDYxRc9DISy,LastSeen=20250103032302,Name=agent-romohud-w-57,Version=yacy_v1.940_202501031001_a51b208,rI=5,NCount=0,USpeed=0,rU=5,RSpeed=0.0,IP=58.96.112.6,PeerType=senior,ISpeed=0,ICount=1,CCount=545.0,sI=0,LCount=5,sU=0,BDate=20250103013752,news=,Uptime=0,Flags=%   ,IP6=,SCount=157}

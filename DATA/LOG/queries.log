@@ -1,1 +1,0 @@
-20250103024127 0 sq ("cute" AND "anime" AND "girl" AND "in" AND "tights") AND ((images_text_t:("cute" AND "anime" AND "girl" AND "in" AND "tights")^100.0) OR (title:("cute" AND "anime" AND "girl" AND "in" AND "tights")^50.0) OR (keywords:("cute" AND "anime" AND "girl" AND "in" AND "tights")^10.0) OR (text_t:("cute" AND "anime" AND "girl" AND "in" AND "tights")))
